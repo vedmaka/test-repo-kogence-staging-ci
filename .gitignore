@@ -1,0 +1,13 @@
+# Linux
+.directory
+
+# Editors
+*.kate-swp
+*~
+\#*#
+.#*
+.*.swp
+.project
+cscope.files
+cscope.out
+*.orig

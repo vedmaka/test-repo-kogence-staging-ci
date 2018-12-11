@@ -1,0 +1,30 @@
+{
+  "linters": {
+    "less": {
+      "type": "lessc",
+      "include": "(\\.less$)"
+    },
+    "css": {
+      "type": "csslint",
+      "include": "(\\.css$)"
+    },
+    "phpcs": {
+      "type": "phpcs",
+      "include": "(\\.php)",
+      "severity.rules": {
+        "(^PHPCS\\.E\\.)": "warning",
+        "(^PHPCS\\.W\\.)": "advice"
+      },
+      "bin": "C:/PHP/phpcs.bat"
+    },
+    "filename": {
+      "type": "filename"
+    },
+    "spelling": {
+      "type": "spelling"
+    },
+    "generated": {
+      "type": "generated"
+    }
+  }
+}

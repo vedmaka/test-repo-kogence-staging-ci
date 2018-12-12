@@ -34,7 +34,7 @@ jobs:
           key: v1-dependencies-{{ checksum "composer.json" }}
         
       # run tests!
-      - run: phpunit && cat README.md
+      - run: ls -al && cat README.md
 
 notify:
   webhooks:

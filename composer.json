@@ -1,0 +1,12 @@
+{
+    "name": "test",
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "authors": [
+        {
+            "name": "test",
+            "email": "alexey@kogence.com"
+        }
+    ]
+}

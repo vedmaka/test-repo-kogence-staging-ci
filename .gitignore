@@ -11,3 +11,7 @@
 cscope.files
 cscope.out
 *.orig
+
+/node_modules
+
+/vendor/
